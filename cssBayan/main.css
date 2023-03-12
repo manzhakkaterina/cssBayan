@@ -1,0 +1,117 @@
+@media (min-device-width: 821px) and (max-device-width: 1920px) { 
+body {
+    font-size: 3vh;
+}
+.sign {
+    display: none;
+}
+.titul {
+    font-size: 4vh;
+}
+.acor-container:hover .acor_titul {
+    color: rgb(0, 0, 0);
+}
+input:checked~div .sign {
+    transition: transform 0.4s;
+    transform: rotate(45deg);
+}
+label :hover~img {
+    max-height: 80vh;
+    transition: max-height 0.8s ease-out;
+}
+.acor-container:hover .sign {
+    display: flex;
+}
+label:hover .sign {
+    transform: rotate(45deg);
+    transition: 0.5s ease;
+}
+img:hover .sign {
+    transform: rotate(45deg);
+    transition: 0.5s ease;
+}
+}
+
+@media (max-device-width: 320px) {
+body {
+    font-size: 2vh;
+}
+.titul {
+    font-size: 3vh;
+}
+.sign {
+    display: flex;
+}
+input:checked~div .sign {
+    transform: rotate(45deg);
+    transition: 0.5s ease;
+}
+}
+
+@media (min-device-width: 321px) and (max-device-width: 820px) {
+body {
+    font-size: 4vh;
+}
+.titul {
+    font-size: 5vh;
+}
+.sign {
+    display: flex;
+}
+input:checked~div .sign {
+    transform: rotate(45deg);
+    transition: 0.5s ease;
+}
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inika', serif;
+    font-weight: 700;
+}
+.titul {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.acor-container {
+    margin: 0 auto;
+    max-width: 60%;
+}
+label {
+    cursor: pointer;
+}
+.acor_name {
+    display: flex;
+    border-top: 1px solid rgb(150, 150, 150);
+    justify-content: space-between;
+}
+img {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 2vh;
+    max-height: 0;
+    transition: max-height 0.4s ease-out;
+}
+.acor_titul {
+    color: rgb(0, 0, 250);
+}
+input:checked~div .acor_titul {
+    color: rgb(0, 0, 0);
+}
+.label:active {
+    color: rgb(0, 0, 250);
+}
+.label:active .acor_titul {
+    color: rgb(0, 0, 250);
+}
+.label:active img {
+    transition: filter 2s ease-out;
+    filter: brightness(1.6);
+}
+input:checked~img {
+    max-height: 80vh;
+    transition: max-height 0.8s ease-out;
+}
