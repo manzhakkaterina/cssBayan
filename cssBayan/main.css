@@ -1,22 +1,22 @@
 @media (min-device-width: 821px) and (max-device-width: 1920px) { 
 body {
-	font-size: 3vh;
+    font-size: 3vh;
 }
 .sign {
-	display: none;
+    display: none;
 }
 .titul {
-	font-size: 4vh;
+    font-size: 4vh;
 }
 .acor-container:hover .acor_titul {
     color: rgb(0, 0, 0);
 }
 input:checked~div .sign {
-	transition: transform 0.4s;
+    transition: transform 0.4s;
     transform: rotate(45deg);
 }
 label :hover~img {
-    max-height: 40vh;
+    max-height: 80vh;
     transition: max-height 0.8s ease-out;
 }
 .acor-container:hover .sign {
@@ -37,7 +37,7 @@ body {
     font-size: 2vh;
 }
 .titul {
-	font-size: 3vh;
+    font-size: 3vh;
 }
 .sign {
     display: flex;
@@ -53,7 +53,7 @@ body {
     font-size: 4vh;
 }
 .titul {
-	font-size: 5vh;
+    font-size: 5vh;
 }
 .sign {
     display: flex;
@@ -65,15 +65,15 @@ input:checked~div .sign {
 }
 
 body {
-	box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-	font-family: 'Inika', serif;
+    font-family: 'Inika', serif;
     font-weight: 700;
 }
 .titul {
-	margin-top: 2%;
-	margin-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .acor-container {
     margin: 0 auto;
@@ -83,9 +83,9 @@ label {
     cursor: pointer;
 }
 .acor_name {
-	display: flex;
+    display: flex;
     border-top: 1px solid rgb(150, 150, 150);
-	justify-content: space-between;
+    justify-content: space-between;
 }
 img {
     display: flex;
@@ -94,7 +94,6 @@ img {
     padding-bottom: 2vh;
     max-height: 0;
     transition: max-height 0.4s ease-out;
-	margin: 0 auto;
 }
 .acor_titul {
     color: rgb(0, 0, 250);
@@ -109,10 +108,10 @@ input:checked~div .acor_titul {
     color: rgb(0, 0, 250);
 }
 .label:active img {
-	transition: filter 2s ease-out;
-	filter: brightness(1.6);
+    transition: filter 2s ease-out;
+    filter: brightness(1.6);
 }
 input:checked~img {
-    max-height: 40vh;
+    max-height: 80vh;
     transition: max-height 0.8s ease-out;
 }
