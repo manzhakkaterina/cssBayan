@@ -46,10 +46,6 @@ input:checked~div .sign {
     transform: rotate(45deg);
     transition: 0.5s ease;
 }
-img {
-    width: 50%;
-    margin-left: 25%;
-}
 }
 
 @media (min-device-width: 321px) and (max-device-width: 820px) {
@@ -93,6 +89,8 @@ label {
 }
 img {
     display: flex;
+    width: 50%;
+    margin-left: 25%;
     padding-bottom: 2vh;
     max-height: 0;
     transition: max-height 0.4s ease-out;
